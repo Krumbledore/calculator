@@ -1,0 +1,51 @@
+*{
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: red;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex: 1 0 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.calc-body{
+    display: flex;
+    flex: 1 0 1;
+  
+    flex-wrap: wrap;
+   
+    flex-direction: column;
+}
+.screen{
+    flex:0 1 1;
+    
+}
+
+.keypad{
+    display: flex;
+    flex: 0 0 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    
+    
+    
+}
+
+.keypad div{
+    display: flex;
+    flex:0 0 0;
+    flex-wrap: wrap;
+    min-width: 25px;
+    justify-content: center;
+    
+
+}
